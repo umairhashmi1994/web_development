@@ -1,0 +1,39 @@
+
+.gardenslider {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+}
+.gardenslider h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #f1592a;
+    font-size: 16px;
+    text-align: center;
+}
+.gardenslider h1 {
+    color: #e8e8e8;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+.gardenslider button {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    padding: 15px 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 17px;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*width: 132px;
+    height: 40px;*/
+    display: none;
+    background-color: #f1592a;
+    color: #ffffff;
+}
+.gardenslider:hover button {
+    display: block;
+    /* color: #ffffff; */
+}

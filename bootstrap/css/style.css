@@ -1,0 +1,87 @@
+#one{
+	background-color: #df7a25;
+	height: 200px;
+}
+.main {
+    margin-top: 70px;
+}
+.bg-blue {
+	height: 50px;
+    background-color: #50dfdd;
+}
+
+section#two {
+    margin-top: 25px;
+}
+.bg-dblue {
+	height: 50px;
+    background-color: #1505df;
+}
+.bg-red{
+	margin-top: 20px;
+	height: 50px;
+	background-color: #df0711;
+}
+.greenbox{
+	height: 125px;
+	background-color: #45df10;
+}
+
+.leftyellow{
+	padding:0px;
+	background-color: #dfdd14;
+	height: 200px;
+}
+.rightblue{
+	padding:0px;
+	background-color: #51dadf;
+	height: 200px;
+}
+
+.padding-zero {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+section.three {
+    margin-top: 25px;
+}
+.threepruple{
+	background-color: #df05d2;
+	height: 350px;
+}
+.bg-color{
+	height: 350px;
+	background-color: #df5439;
+}
+.threeone{
+	margin-top: 25px;
+	background-color: #1f0bdf;
+	height: 300px;
+}
+.threetwo{
+	margin-top: 25px;
+	background-color: #0f0802;
+	height: 50px;
+}
+.threethree
+{	margin-top: 25px;
+	background-color: #df709c;
+	height:200px;
+}
+.fourcolor{
+	margin-top: 25px;
+	background-color: #df2284;
+	height: 50px;
+}
+@media(max-width:767px){
+	.threepruple,.threeone,.threetwo,.threethree{
+		height: 50px !important;	
+	}
+	.bg-color{
+	margin-top: 20px;
+	}	
+	.no-padding{
+		padding-left: 0px !important;
+	padding-right: 0px !important;
+	}
+}

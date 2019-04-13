@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+</head>
+<body>
+	<div class="owl-carousel">
+	  <div><img src="image/shutterstock_191628920.png"></div>  
+	  <div><img src="image/shutterstock_367009358.png"></div>
+	  <div><img src="image/shutterstock_391991770.png"> </div>
+	  <div> <img src="image/shutterstock_507200791.png"></div>
+	  <div><img src="image/shutterstock_519960586.png"></div>
+	  <div> <img src="image/shutterstock_649321585.png"> </div>
+	  <div> <img src="image/team4-m-min-360x200.jpg"> </div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+	</script>
+</body>
+</html>

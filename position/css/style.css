@@ -1,0 +1,128 @@
+.box1 {
+	position: relative;
+    width: 30%;
+    background-color: green;
+    height: 250px;
+}
+.subbox1-one {
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: red;
+}
+.subbox1-two {
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: red;
+    right:0%;
+}
+.subbox1-three {
+    width: 20%;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+}
+.subbox1-four {
+    right: 0%;
+    bottom: 0%;
+    /* left: 325px; */
+    width: 20%;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+}
+.subbox1-five {
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: red;
+    top: 35%;
+    left: 35%;
+}
+.box2 {
+    position: absolute;
+    z-index: 5;
+    width: 30%;
+    background-color: blue;
+    height: 250px;
+    top: 65%;
+}
+.subbox2-one {
+    top: 0%;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: black;
+    left: 20%;
+}
+.subbox2-two {
+	top:0%;
+	right:20%;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: black;
+}
+.subbox2-three {
+    width: 20%;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+}
+.subbox2-four {
+    right: 20%;
+    bottom: 0%;
+    /* left: 325px; */
+    width: 20%;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+}
+.subbox2-five {
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: black;
+    top: 35%;
+    left: 40%;
+}
+.box3 {
+    position: relative;
+    width: 50%;
+    background-color: orange;
+    height: 250px;
+}
+.subbox3one {
+    top: 0%;
+    position: absolute;
+    width: 20%;
+    height: 70px;
+    background-color: red;
+    left: 20%;
+}
+.subbox3two {
+	top:0%;
+	right:20%;
+    position: fixed;
+    width: 20%;
+    height: 70px;
+    background-color: red;
+}
+.onebox1 {
+    position: absolute;
+    width: 60%;
+    height: 30px;
+    background-color: yellow;
+}
+.onebox2 {
+    position: absolute;
+    z-index: 5;
+    width: 60%;
+    height: 30px;
+    background-color: yellow;
+    bottom: 0px;
+}

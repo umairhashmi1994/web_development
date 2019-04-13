@@ -1,0 +1,17 @@
+.box {
+    height: 100px;
+    width: 20%;
+    border: 2px solid;
+    animation-name:bounce;
+    transform-origin: center bottom;
+}
+@keyframes box{
+	from,
+	20%,
+	53%,
+	80%,
+	to{
+		animation-timing-function: ease-in;
+		transform: translate3d(0,0,0);
+	}
+}
